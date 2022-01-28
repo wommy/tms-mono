@@ -1,0 +1,7 @@
+{
+  "name": "@tms/netlifycms",
+  "devDependencies": {
+    "technomad": "github:wommy/mono-tm",
+    "technomad-stack": "github:wommy/technomad-stack"
+  }
+}

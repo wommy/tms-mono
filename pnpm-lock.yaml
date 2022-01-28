@@ -1,0 +1,28 @@
+lockfileVersion: 5.3
+
+importers:
+
+  .:
+    specifiers: {}
+
+  packages/netlifycms:
+    specifiers:
+      technomad: github:wommy/mono-tm
+      technomad-stack: github:wommy/technomad-stack
+    devDependencies:
+      technomad: github.com/wommy/mono-tm/f3ff7410610417ba6880b9f88421fb605d994155
+      technomad-stack: github.com/wommy/technomad-stack/65e543f6d71733b912b41d0670ca6353d4522131
+
+packages:
+
+  github.com/wommy/mono-tm/f3ff7410610417ba6880b9f88421fb605d994155:
+    resolution: {tarball: https://codeload.github.com/wommy/mono-tm/tar.gz/f3ff7410610417ba6880b9f88421fb605d994155}
+    name: technomad
+    version: 0.0.0
+    dev: true
+
+  github.com/wommy/technomad-stack/65e543f6d71733b912b41d0670ca6353d4522131:
+    resolution: {tarball: https://codeload.github.com/wommy/technomad-stack/tar.gz/65e543f6d71733b912b41d0670ca6353d4522131}
+    name: technomad-stack
+    version: 1.0.0
+    dev: true
