@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link href="/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<style>
+h1, h2, h3, h4, h5, p { margin: 0 0 .5rem 0; }
+p { font-size: small; }
+
+.resume{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "name"
+    "contact"
+    "summary"
+    "experience"
+    "education"
+}
+</style>
+<article class="resume">
+<section class="name">
+<h1>Tommy Williams</h1>
+</section>
+<section class="contact">
+<p><a href="mailto:tom@technomad.media">tom@technomad.media</a><br>
+<a href="tel:3128189011">312 818 9011</a><br>
+Royal Oak, MI</p>
+</section>
+<section class="summary">
+<h3>__ Summary</h3>
+<p>Doing websites since college really got me acquainted with the terminal and command line. From there, building my own computers and running linux on them was a breeze. Getting to the bottom of problems is my expertise.  In my last two jobs I swiftfully learned industries I was not familiar with, with my favorite part of both of them being the customers.</p>
+<p><strong>Four Year Goal</strong>: to manage ecommerce for a digital media company</p>
+<p><strong>hobbies</strong>: cycling, martial arts, dancing, techno</p>
+</section>
+<section class="experience">
+<h3>__ Experience</h3>
+<h5>Hydro Capitol, Sales Associate <br> --- 2019 Winter-Spring</h5>
+<p>served ~30 managers of ~50 accounts, customers and distributors<br>
+troubleshot customer problems/requirements and provided solutions<br>
+learned various brands and the use of their different product lines<br>
+as well as their inventory software and all the inner workings of it<br>
+interacted with teams at other branches biweekly</p>
+<h5>mc chris, Road Manager <br> --- 2018 Fall</h5>
+<p>communicated digitally and physically with 50+ venues &amp; staff<br>
+drove 14,000+ miles and arranged lodging in 50+ cities<br>
+sold $100k+ merchandise in venues with capacities from 75-500<br>
+loaded in and out both equipment and merchandise<br>
+did inventory weekly and managed logistics with resuppliers</p>
+<h5>Solution People, Lead Website Engineer <br> --- 2015-2017</h5>
+<p>I interned here in college and they kept me on for a couple years after. This business had 30+ websites each angled towards a different market. My job was to make the slight tweaks and updates to each one when new data come out. I did a couple redesigns, combined a few together, split other ones out, wrote a couple of scripts to streamline common methods.</p>
+<h5>Original Graphics Printing, Contractor <br> --- 2015 Summer-Fall</h5>
+<p>I worked out of a print shop on the south side of Chicago who served a bunch of small local businesses doing visual branding: signs, decals for cars and windows, tshirts, and etc. I was brought on to add a website element to this. Because of the rate at which they acquired new clients, my website game morphed from updating a few dozen sites a couple times a week, to creating a new site from scratch and getting it perfect in a week or two.</p>
+<h5>techomad, Founder <br> --- since 2010</h5>
+<p>I started this business in college, during my transition out of art school: most of my friends were artists with loads of branding experience, but needed a platform to display and market their craft. Recently my clients have been more small businesses.</p>
+</section>
+<section class="education">
+<h3>__ Education</h3>
+<h5>DePaul University 2010-2015 <br> - Bachelor of Arts, Psychology <br> - Minor: <a href="https://catalog.depaul.edu/university-catalog-archive/2019-2020-WinSprSum/course-descriptions/im/">Interactive Media</a></h5>
+<h5>Columbia College Chicago 2008-2010 <br> - Film, Music Composition</h5>
+<h5>University of Detroit Jesuit High School <br> - Class of 2008</h5>
+<p>contemplating a <strong>Masters in Computer Science</strong></p>
+</section>
+</article>
+
+	<script>
+		if (window.netlifyIdentity) {
+			window.netlifyIdentity.on("init", user => {
+				if (!user) {
+					window.netlifyIdentity.on("login", () => {
+						document.location.href = "/admin/";
+					});
+				}
+			});
+		}
+	</script>
+</body>
+
+</html>

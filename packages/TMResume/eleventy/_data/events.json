@@ -1,0 +1,246 @@
+{
+	"info": {
+		"co-founder": [ "JAMstack DET" ],
+		"member of": [
+			"detroit.js", "sem.js", "detroit react developers", "coffee house coders royal oak"
+		]
+	},
+	"list": {
+		"first": {
+			"CMS as Code, Pushing the Limits with Static Site Tools": [
+				"The New Dynamic",
+				"Carrot Creative, VICE Media, New York City, NY",
+				"2017/04/06"
+			],
+			"Active Ingredients, activeingredients.info": [
+				"Netlify",
+				"Google, San Francisco, CA",
+				"2017/04/27"
+			],
+			"Git-based or API-driven CMS": [
+			"Chris Macrae, forestry.io",
+				"JAMstack NYC",
+				"O’Reilly’s Velocity, New York City, NY",
+				"2017/10/02"
+			],
+			"Beginners Night!": [
+			"Richard Feldman",
+				"Elm Philadelphia",
+				"Blackfynn, Philadelphia, PA",
+				"2017/10/11"
+			],
+			"Lets Kill CSS: Pros and Cons of CSS in JS": [
+			"Steve Barman & Dennay Bedard",
+				"Detroit Javascript",
+				"Detroit Labs, Detroit, MI",
+				"2017/11/06"
+			],
+			"Exploring Vue.js, an alternative to Angular and React": [
+			"Jacob Bolton",
+				"SE Michigan JavaScript",
+				"Barracuda Networks, Ann Arbor, MI",
+				"2017/11/13"
+			],
+			"Mob Coding! Build a server-side NextJS blog": [
+				"Detroit Javascript",
+				"Detroit Labs, Detroit, MI",
+				"2018/01/31"
+			],
+			"Programming with Attention Deficit Disorder": [
+			"Steve Barman",
+				"Detroit Javascript",
+				"Detroit Labs, Detroit, MI",
+				"2018/02/22"
+			],
+			"Group coding with exercism.io": [
+			"Mike Matola",
+				"Detroit Javascript",
+				"OtterBase, Livonia, MI",
+				"2018/03/21"
+			],
+			"March Social": [
+				"HackerNest Detroit",
+				"i3Detroit, Ferndale, MI",
+				"2018/03/27"
+			],
+			"ASTronomically Improving your Developer Experience: Abstract Syntax Tree Primer": [
+			"Bernardo Pacheco, Dominos Pizza",
+				"SE Michigan JavaScript",
+				"Barrcuda Networks, Ann Arbor, MI",
+				"2018/04/09"
+			],
+			"Building a Static HTML & Web App Frankenstein": [
+			"Jeff Escalante, Hashicorp",
+				"New York Web Performance Group",
+				"Spotify, New York City, NY",
+				"2018/04/24"
+			],
+			"Securing VueJS Applications with JSON Web Tokens": [
+			"Ado Kukic, Auth0",
+				"Detroit Javascript",
+				"RouteOne, Farmington Hills, MI",
+				"2018/05/01"
+			],
+			"a FUNctional Javascript Makeover": [
+			"Mike Schutte",
+				"Detroit Javascript",
+				"Detroit Labs, Detroit, MI",
+				"2018/06/18"
+			],
+			"Meet for SPEED: Lets talk Webpack": [
+			"Sergey Chernyshev, Meetup.com ",
+			"Malek Hakim, Priceline.com",
+				"New York Web Performance Group",
+				"Priceline, New York City, NY",
+				"2018/07/10"
+			],
+			"FaCSSt: CSS & Performance": [
+			"Harry Roberts, csswizardy.com",
+				"New York Web Performance Group",
+				"Squarespace, New York City, NY",
+				"2018/07/18"
+			]
+		},
+		"2019/09/24 - update": {
+			"2019/01/14 - SE Michigan JavaScript": [
+				"The Great Gatsby: Building Fast Static Sites in React",
+					"Kevin Marsh - Kinship",
+				"Barrcuda Networks - Ann Arbor, MI"
+			],
+			"2019/01/22 - New York Web Performance Group": [
+				"Meet for SPEED",
+					"Sergey Chernyshev - Meetup.com ",
+					"Malek Hakim - Priceline.com",
+				"Priceline - New York City, NY"
+			],
+			"2019/01/24 - JAMstack NYC": [
+				"Master Serverless! + Dynamic Generators",
+					"Jared Short - Serverless Inc.",
+					"Sergey Chernyshev - Meetup",
+				"Postlight - New York City, NY"
+			],
+			"2019/02/20 - Metro Detroit Vue": [
+				"State Management with Vuex",
+					"Henry Morrow - StockX",
+				"RIIS LLC - Troy, MI"
+			],
+			"2019/02/21 - Refresh Detroit": [
+				"Content Search Engine Optimization: Quick(er) Wins",
+					"Theresa Cordon - Wayne State",
+					"Esther Eppele - Wayne State",
+				"Grand Circus - Detroit, MI"
+			],
+			"2019/02/27 - Detroit User Experience": [
+				"For the Love of UX - Food, Networking and Arcade Games!",
+				"POP + Offworld Arcade - Detroit, MI"
+			],
+			"2019/03/13 - Coffee House Coders Royal Oak": [
+				"Coffee House Coders Royal Oak Meeting",
+				"Bean & Leaf Cafe - Royal Oak, MI"
+			],
+			"2019/03/20 - Detroit User Experience": [
+				"Happy Spring! Let's Prototype for a Cause!",
+					"Jodi Bollaert - GM",
+				"Arts and Scraps - Detroit, MI"
+							],
+			"2019/03/24 - HTML5 Detroit": [
+				"LinkenIn Workshop & Networking Event",
+					"Jenna Ritten - IBM",
+				"Synchronous Coworking - Detroit, MI"
+			],
+			"2019/03/30 - HTML5 Detroit": [
+				"Twilio git hired --force Event!",
+					"Jenna Ritten - IBM",
+				"SpaceLab Detroit - Detroit, MI"
+			],
+			"2019/04/11 - New York Web Performance Group": [
+				"Meet for SPEED",
+					"Sergey Chenyshev - Meetup",
+					"Malek Hakim - Priceline",
+				"Priceline - New York City, NY"
+			],
+			"2019/05/02 - Elm Detroit": [
+				"Talk: Going Serverless with Elm + NodeJS",
+					"Mike Onslow - Clarity Voice",
+				"Clarity Voice - Southfield, MI"
+			],
+			"2019/05/07 - New York Web Performance Group": [
+				"Fast by Default: A deep-dive into Gatsby's Performance Optimizations",
+					"Dustin Schau - Gatsby",
+					"Jason Lengstorf - Gatsby",
+				"Human Ventures - New York City, NY"
+			],
+			"2019/05/09 - React NYC": [
+				"ReactNYC S3:E2",
+					"Demystifying the react-cache-library",
+						"Marvin Frachet - Zenika Montreal",
+					"Managing Complex UI with xState",
+						"Xavier Lozinguez - Transfix",
+					"What's New in Gatsby",
+						"Jason Lengstorf - Gatsby",
+					"Gatsby Panel: ",
+						"Kyle Mathews, Sam Bhagwat, Jason Lengstorf, ",
+						"Dustin Schau, Marcy Sutton, Brent Jackson, ",
+						"Shannon Soper, Mikhail Novikov, Jim Ettig",
+				"Capital One Commercial Labs - New York City, NY"
+			],
+			"2019/05/13 - SE Michigan Javascript": [
+				"Getting Acquainted with GraphQL",
+					"Eve Porcello - Moon Highway",
+				"Atomic Object - Ann Arbor, MI"
+			],
+			"2019/05/14 - AnnArbor.jsx": [
+				"JSX & JSX Alternatives",
+					"Max Dubrinsky - TD Ameritrade",
+				"TD Ameritrade - Ann Arbor, MI"
+			],
+			"2019/06/10 - SE Michigan Javascript": [
+				"Lightning Talks - 6 year Birthday!",
+					"Building, growing, and selling a mobile app in 2 years",
+						"Mark Halonen - Laurium Labs",
+					"Write Once, Run Anywhere with Vue.js and Quasar",
+						"Doug Lance - Arbormoon Software, Inc",
+					"Websockets and Methods for Real-Time Data Streaming",
+						"Steve Schwartz - Genomenon, Alfa Jango",
+					"I Want To Believe",
+						"Mark LeMerise - Symphono",
+					"Automatic type generation from GraphQL",
+						"Chris Cain - Nutshell",
+					"Johnny Five",
+						"Peter Guenther - Grand Circus",
+					"Automatic Semicolon Insertion: Rules & Gotchas",
+						"Brandon Lyons - GE Aviation",
+					"VSCode Live Sharing",
+						"Kunle Oshiyoye - Ford Motor Company",
+					"Creating 8-bit sound effects with JavaScript",
+						"Spencer Jobe",
+				"Pillar - Ann Arbor, MI"
+			],
+			"2019/06/11 - Rochester Full Stack Meetup": [
+				"RFS June - GET more out of APIs",
+					"Caroline Jobe - Whitelabel",
+				"Rochester Fire Department - Rochester, MI"
+			],
+			"2019/07/08 - SE Michigan Javascript": [
+				"Websockets and Methods for Real-Time Data Streaming",
+					"Steve Schwartz - Genomenon & Alfa Jango",
+				"Atomic Object - Ann Arbor, MI"
+			],
+			"2019/08/12 - SE Michigan Javascript": [
+				"Web Components: (Not) The Silver Bullet",
+					"Manuel Rueda - Thomson Reuters",
+				"Atomic Object - Ann Arbor, MI"
+			],
+			"2019/09/09 - SE Michigan Javascript": [
+				"Double Header - NestJS and Eleventy",
+					"Aaron Harper - Duo Security",
+					"Leo Generali - The Knot Worldwide",
+				"Pillar - Ann Arbor, MI"
+			],
+			"2019/09/10 - A2Go - Golang developer meetup": [
+				"a2go Inagural Meeting and Workshop",
+				"Cahoots - Ann Arbor, MI"
+			]
+		}
+	}
+}

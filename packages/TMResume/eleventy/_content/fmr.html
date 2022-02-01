@@ -1,0 +1,49 @@
+---
+layout: "_Page"
+permalink: "/resume/fmr/index.html"
+---
+<header class="ml-20">
+  <h1 class="my-0 uppercase text-4xl">frank m. renzo</h1>
+  <div>
+    <a href="https://goo.gl/maps/cPbCWmomfB8QDZez9">1851 Staunton Ave Winter Park, FL 32789</a>
+    <span>|</span>
+    <a href="mailto:frank.m.renzo@gmail.com">frank.m.renzo@gmail.com</a>
+    <span>|</span>
+    <a href="tel:2197183635">219.718.3635</a>
+  </div>
+</header>
+
+<section class="mt-8">
+  <h2 class="my-0 uppercase text-xl">experience</h2>
+  {%- for ea in fmr.experience %}
+  <div class="ml-20">
+    <header>
+      <h3 class="inline-block my-0">{{ea.title}}</h3>
+      {%- for x in ea.where %}
+      <span class="ml-4">{{x}}</span>
+      {%- endfor %}
+      <div>{{ea.when}}</div>
+    </header>
+    <ul class="my-2">
+      {%- for x in ea.content %}
+      <li>{{x}}</li>
+      {%- endfor %}
+    </ul>
+  </div>
+  {%- endfor %}
+</section>
+
+<section class="mt-8">
+  <h2 class="my-0 uppercase text-xl">education</h2>
+  <div class="ml-20">
+    {%- for ea in fmr.education %}
+    <h3 class="my-0">{{ea.title}}</h3>
+    <div>
+      {%- for x in ea.details %}
+      <span class="ml-8">{{x}}</span>
+      {%- endfor %}
+    </div>
+    {%- endfor %}
+  </div>
+</section>
+

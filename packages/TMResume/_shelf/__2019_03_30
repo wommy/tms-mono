@@ -1,0 +1,211 @@
+CONTACT
+picture:
+name: tommy williams
+email: tom@technomad.media
+portfolio: github.com/wommy, wommy.io, technomad.media
+focus: digital publishing, media distribution, ecommerce
+location: Chicago IL, Royal Oak MI, New York NY
+hobbies: cycling, martial arts, dancing, techno
+built with: linux, github, html, css, javascript
+view online: github.com/wommy/resume
+
+EDUCATION
+Class of 2008: University of Detroit Jesuit High School
+2008 - 2010: Columbia College Chicago
+Class of 2015: DePaul University
+  Bachelors of Art - Psychology
+  Minor - Interactive and Social Media
+
+EXPERIENCE
+since 2010: techomad: web freelancer: 
+  24+ microbusinesses; development, design, consultation
+2015 - 2017: Solution People: website lead 
+  design, development, content, database; 30+ websites
+2015 summer, fall: Original Graphics Printing:
+  subcontractor; 5+ brands: website, signage, decals, tshirts
+
+SKILLS
+hypertext markup language, cascading style sheets, javascript
+
+html5
+liquid
+yaml
+toml
+markdown
+haml
+jade
+pug
+json
+reshape
+
+css3
+sass
+less
+stylus
+postcss
+styled components
+jss
+
+node
+jquery
+lodash
+babel
+es6
+react
+vue
+
+ruby
+rails
+jekyll
+php
+lamp
+wordpress
+python
+go
+
+mysql
+nosql
+sqlite3
+graphql
+
+mean
+jam
+gatsby
+hugo
+spike
+npm
+gulp
+yarn
+webpack
+
+object oriented
+functional
+	elm
+	ramda
+	reasonml
+
+unix
+bash
+zsh
+git
+ssh
+api
+dns
+ssl
+cdn
+headless cms
+http/2
+
+user interface
+user experience
+wireframing
+illustrator
+gimp
+balsamiq
+axure
+sketch
+figma
+scrum
+agile
+component-based architecture
+design systems
+a/b testing
+test creation
+data collection
+statistical analysis
+
+CONFERENCES / MEETUPS
+member of: detroit.js, sem.js, detroit react developers
+
+CMS as Code, Pushing the Limits with Static Site Tools
+	The New Dynamic
+	Carrot Creative, VICE Media, New York City, NY
+	2017/04/06
+
+Active Ingredients, activeingredients.info
+	Netlify
+	Google, San Francisco, CA
+	2017/04/27
+
+Git-based or API-driven CMS
+Chris Macrae, forestry.io
+	JAMstack NYC
+	O’Reilly’s Velocity, New York City, NY
+	2017/10/02
+
+Beginners Night!
+Richard Feldman
+	Elm Philadelphia
+	Blackfynn, Philadelphia, PA
+	2017/10/11
+
+Lets Kill CSS: Pros and Cons of CSS in JS
+Steve Barman & Dennay Bedard
+	Detroit Javascript
+	Detroit Labs, Detroit, MI
+	2017/11/06
+
+Exploring Vue.js, an alternative to Angular and React
+Jacob Bolton
+	SE Michigan JavaScript
+	Barracuda Networks, Ann Arbor, MI
+	2018/11/13
+
+Mob Coding! Build a server-side NextJS blog
+	Detroit Javascript
+	Detroit Labs, Detroit, MI
+	2018/01/31
+
+Programming with Attention Deficit Disorder
+Steve Barman
+	Detroit Javascript
+	Detroit Labs, Detroit, MI
+	2018/02/22
+
+Group coding with exercism.io
+Mike Matola
+	Detroit Javascript
+	OtterBase, Livonia, MI
+	2018/03/21
+
+March Social
+	HackerNest Detroit
+	i3Detroit, Ferndale, MI
+	2018/03/27
+
+ASTronomically Improving your Developer Experience: Abstract Syntax Tree Primer
+Bernardo Pacheco, Dominos Pizza
+	SE Michigan JavaScript
+	Barrcuda Networks, Ann Arbor, MI
+	2018/04/09
+
+Building a Static HTML & Web App Frankenstein
+Jeff Escalante, Hashicorp
+	New York Web Performance Group
+	Spotify, New York City, NY
+	2018/04/24
+
+Securing VueJS Applications with JSON Web Tokens
+Ado Kukic, Auth0
+	Detroit Javascript
+	RouteOne, Farmington Hills, MI
+	2018/05/01
+
+a FUNctional Javascript Makeover
+Mike Schutte
+	Detroit Javascript
+	Detroit Labs, Detroit, MI
+	2018/06/18
+
+Meet for SPEED: Lets talk Webpack
+Sergey Chernyshev, Meetup.com 
+Malek Hakim, Priceline.com
+	New York Web Performance Group
+	Priceline, New York City, NY
+	2018/07/10
+
+FaCSSt: CSS & Performance
+Harry Roberts, csswizardy.com
+	New York Web Performance Group
+	Squarespace, New York City, NY
+	2018/07/18

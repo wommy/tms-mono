@@ -1,0 +1,34 @@
+olde template
+	contact
+		name
+		email - location
+	summary
+		+ goal
+	experience
+		hydrocapitol
+		mc roadie
+		solution people
+		ogp
+		technomad
+	education
+		depaul
+		columbia
+		edj
+		+	?	masters
+		+ hobbies
+
+new template
+	contact
+		name
+		email + location + phone, ask
+		+ ? github + ? website
+		education
+		+ sentence
+		hobbies
+		goals
+		summary, rename
+	experience
+		work
+		skills
+		meetups
+

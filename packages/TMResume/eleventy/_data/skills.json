@@ -1,0 +1,21 @@
+{
+	"HTML5": [
+		["jade", "pug", "haml"], 
+		["erb", "ejs"],
+		["liquid", "handlebars", "nunjucks"],
+		["markdown"]
+	],
+	"CSS3/Less/Sass": [ ["postcss"] ],
+	"JavaScript/jQuery/GSAP": [ ["es6", "lodash"] ],
+	"Bootstrap or similar framework": [ ["tachyons", "tailwind", "GPS"] ],
+	"XML/JSON": [ ["csv", "yaml", "toml"] ],
+	"bonus": [
+		["npm", "gulp", "webpack"],
+		["mobile-first", "acessibility"],
+		["git", "bash", "cli", "vim", "ssh", "unix"],
+		["auto-prefixer", "reset/normalize.css", "shim polyfill", "flexbox"],
+		["component", "prpl", "app-shell"],
+		["semver", "agile", "scrum", "kanban"],
+		["figma", "sketch", "krita"]
+	]
+}

@@ -1,0 +1,38 @@
+@tailwind base;
+@layer base {
+
+body {
+	@apply font-serif;
+}
+
+h2, h3 {
+	line-height: 1.3;
+	@apply font-bold;
+}
+
+a:not([class]) {
+	@apply underline;
+	text-decoration-skip-ink: auto;
+}
+
+ul li {
+	@apply list-disc list-outside ml-10;
+}
+
+section h2 {
+	@apply underline;
+}
+
+}
+@tailwind utilities;
+@layer utilities {
+
+.flow > * + * {
+	margin-top: .75em;
+}
+
+}
+@tailwind components;
+@layer components {
+
+}

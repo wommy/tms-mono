@@ -1,0 +1,13 @@
+{
+	"name": "Tommy Williams",
+	"email": "tom@technomad.media",
+	"phone": "ask",
+	"location": "Royal Oak, MI",
+	"goals": [
+		"front-end lead for a digital media company",
+		"eCommerce architect",
+		"Masters in Computer Science"
+	],
+	"hobbies": ["cycling", "martial-arts", "dancing", "techno"],
+	"summary": "Doing websites since college really got me acquainted with the terminal and command line. From there, building my own computers and running linux on them was a breeze. Getting to the bottom of problems is my expertise.  In my last two jobs I swiftfully learned industries I was not familiar with, with my favorite part of both of them being the customers."
+}

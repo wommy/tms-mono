@@ -1,0 +1,19 @@
+[
+	{
+		"institution": "DePaul University",
+		"class of": 2015,
+		"bachelor of arts": "Psychology", 
+		"minor": "Interactive & Social Media",
+		"summary": "halfway through my psych degree i pivoted towards UI/UX"
+	},
+	{
+		"institution": "Columbia College Chicago",
+		"yearEnd": 2010,
+		"yearStart": 2008,
+		"focus": "Film, Music Composition"
+	},
+	{
+		"institution": "University of Detroit Jesuit High School",
+		"Class of": 2008
+	}
+]

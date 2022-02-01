@@ -1,0 +1,192 @@
+---
+layout: _Html5
+permalink: '/resume/jw/index.html'
+---
+
+<style>
+body {
+	background: silver;
+}
+h1, h2, h3, p, ul {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-size: 3rem;
+}
+h2 {
+	text-transform: uppercase;
+	font-size: .75rem;
+}
+h3 {
+	display: inline-block;
+	font-size: 16px;
+}
+header {
+	line-height: 1.25;
+	font-size: 16px;
+}
+p {
+	line-height: 1.25;
+}
+header, p, li {
+	font-family: serif;
+}
+
+.resume {
+	line-height: 1.25;
+	background: white;
+	margin: 0 auto;
+	/*
+	letter-spacing: -0.025em;
+		*/
+/* paper dimensions */
+	width: 8.5in;
+	height: 11in;
+	padding: .7in;
+/* 
+	border: 1px solid black;
+ */
+	display: grid;
+	gap: 2rem 3rem;
+	grid-template-columns: 3fr 1fr;
+	grid-template-rows: .75fr 2.5fr 4fr .75fr;
+	grid-template-areas:
+		"name contact"
+		"experience skills"
+		"experience technical-capabilities"
+		"education technical-capabilities";
+}
+.name {
+	grid-area: name;
+	align-self: center;
+}
+.experience {
+	grid-area: experience;
+}
+.education {
+	grid-area: education;
+}
+.contact {
+	grid-area: contact;
+}
+.skills {
+	grid-area: skills;
+}
+.technical-capabilities {
+	grid-area: technical-capabilities;
+}
+
+.resume section > div {
+	margin: 1.125rem 0; 
+}
+.resume header + div {
+	margin: .25rem 0 .5rem;
+	letter-spacing: -0.025em;
+	line-height: .75rem;
+}
+.contact a {
+	display: block;
+	color: black;
+}
+.contact a:not(:last-child) {
+	line-height: .75rem;
+	margin: .375rem 0;
+}
+.skills li, .technical-capabilities li {
+	display: block;
+	margin: .75rem 0;
+}
+.experience h2 {
+	color: forestgreen;
+}
+.education h2 {
+	color: steelblue;
+}
+.skills h2 {
+	color: darkgoldenrod;
+}
+.technical-capabilities h2 {
+	color: peru;
+}
+
+.small {
+	font-size: 14px;
+}
+.smaller {
+	font-size: 12px;
+}
+.smallest {
+	font-size: 10px;
+}
+.lighter {
+	color: dimgray;
+}
+</style>
+
+<article class="resume">
+
+	<section class="name">
+		<h1>{{juju.name}}</h1>
+	</section>
+
+	<section class="experience">
+		<h2 class="color1">experience</h2>
+		{%- for ea in juju.experience %}
+		<div class="small">
+			<header>
+				<h3>{{ea.header[0]}},</h3>
+				<span>{{ea.header[1]}} — </span>
+				<span><em>{{ea.header[2]}}</em></span>
+			</header>
+			<div>
+				<span class="lighter smallest">{{ea.header[3]}}</span>
+			</div>
+			<p class="lighter small">{{ea.content}}</p>
+		</div>
+		{%- endfor %}
+	</section>
+
+	<section class="education">
+		<h2 class="color2">education</h2>
+		{%- for ea in juju.education %}
+		<div>
+			<header>
+				<h3>{{ea.header[0]}},</h3>
+				<span>{{ea.header[1]}} — </span>
+				<span><em>{{ea.header[2]}}</em></span>
+			</header>
+			<div>
+				<span class="lighter smallest">{{ea.header[3]}}</span>
+			</div>
+			<p class="lighter smaller">{{ea.content}}</p>
+		</div>
+		{%- endfor %}
+	</section>
+
+	<section class="contact smallest">
+		<a href="{{juju.contact.gmaps}}">{{juju.contact.address | safe}}</a>
+		<a href="tel:{{juju.contact.phone}}">{{juju.contact.phone}}</a>
+		<a href="mailto:{{juju.contact.email}}">{{juju.contact.email}}</a>
+		<a href="{{juju.contact.web}}">{{juju.contact.web}}</a>
+	</section>
+
+	<section class="skills">
+		<h2 class="color3">skills</h2>
+		<ul class="smaller lighter">
+			{%- for ea in juju.skills %}
+			<li>{{ea}}</li>
+			{%- endfor %}
+		</ul>
+	</section>
+
+	<section class="technical-capabilities">
+		<h2 class="color4">technical capabilities</h2>
+		<ul class="smaller lighter">
+			{%- for ea in juju.technical_capabilities %}
+			<li>{{ea}}</li>
+			{%- endfor %}
+		</ul>
+	</section>
+
+</article>
