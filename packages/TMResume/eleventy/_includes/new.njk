@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<link rel="stylesheet" href="earlpost.css">
-</head>
-<body>
+  <head>
+    {# <link rel="stylesheet" href="earlpost.css"> #}
+  </head>
+  <body>
     {{ content | safe }}
-</body>
+    <script type="module">
+      import {tw} from 'https://cdn.skypack.dev/twind'
+    </script>
+  </body>
 </html>
