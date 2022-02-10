@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {# <link rel="stylesheet" href="earlpost.css"> #}
+    <script src="https://cdn.jsdelivr.net/combine/npm/@twind/cdn@next,npm/@twind/preset-ext@next" crossorigin></script>
+    <script>
+      twind.setup({
+        presets: [twind.presetExt()],
+        // ...
+      })
+    </script>
   </head>
   <body>
     {{ content | safe }}
-    <script type="module">
-      import {tw} from 'https://cdn.skypack.dev/twind'
-    </script>
   </body>
 </html>
